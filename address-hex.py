@@ -4,6 +4,7 @@ import ecdsa
 
 from Crypto.Hash import keccak
 
+# Private key used for testing
 private_key = 'fa6a7b3c18af932b85183391702c172eefa512566ea08b178abb73a987e9571a'
 
 private_key_bytes = codecs.decode(private_key, 'hex')
